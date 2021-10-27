@@ -1,0 +1,82 @@
+using System;
+
+namespace Lab_9
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /* №1
+            double sec;
+            Console.Write("Введите N секунд: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            sec = (double)n / 60;
+            Console.Write(sec);
+            */
+
+            /* №2
+            int num = -1;
+            Console.Write("Введите количество дней: ");
+            int k = Convert.ToInt32(Console.ReadLine());
+            num = k % 7;
+            switch (num)
+            {
+                case 0:
+                    Console.Write("День недели - воскресенье");
+                    break;
+                case 1:
+                    Console.Write("День недели - понедельник");
+                    break;
+                case 2:
+                    Console.Write("День недели - вторник");
+                    break;
+                case 3:
+                    Console.Write("День недели - среда");
+                    break;
+                case 4:
+                    Console.Write("День недели - четверг");
+                    break;
+                case 5:
+                    Console.Write("День недели - пятница");
+                    break;
+                case 6:
+                    Console.Write("День недели - суббота");
+                    break;
+            }
+            Console.Write(", номер дня: " + num);
+            */
+
+            /* №3
+            double day;
+            Console.Write("Введите количество дней: ");
+            int k = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Номер дня N от 1 до 7 для 1 января: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            day = (double)((k + n - 2) % 7) + 1;
+            Console.Write("День недели " + day);
+            */
+
+            /* №4
+            int n, s;
+            Console.Write("Введите А: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Введите B: ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Введите C: ");
+            int c = Convert.ToInt32(Console.ReadLine());
+            n = (a / c) * (b / c);
+            s = a * b - n * c * c;
+            Console.Write("Количество квадратов: " + n + "\n" );
+            Console.Write("Площадь не занятой части: " + s);
+            */
+
+            /* №5
+            int c;
+            Console.Write("Введите год: ");
+            int y = Convert.ToInt32(Console.ReadLine());
+            c = ((y - 1) / 100) + 1;
+            Console.Write(c + " столетие");
+            */
+        }
+    }
+}
