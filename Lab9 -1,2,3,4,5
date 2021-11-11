@@ -10,7 +10,7 @@ namespace Lab_9
             double sec;
             Console.Write("Введите N секунд: ");
             int n = Convert.ToInt32(Console.ReadLine());
-            sec = (double)n / 60;
+            sec = (double)n % 60;
             Console.Write(sec);
             */
 
